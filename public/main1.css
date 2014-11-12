@@ -1,0 +1,33 @@
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+ 
+#registro {
+	    width:360px;
+	    padding:10px;
+	    margin:15px;
+	    border: 2px dashed black;
+	    background-color: black;
+	}
+	#registro fieldset {
+	    border:0;
+	    background-color: grey;
+	    padding:10px 20px;
+	}
+	#registro legend {
+	    font: bold 16px Arial, sans-serif;
+	    color: yellow;
+	    padding:0 5px;
+	}
+	#registro p label {
+	    font:bold 12px Geneva, Arial, Helvetica, sans-serif;
+	    float: left;
+	    width: 22%;
+	    text-align:right;
+	    padding:5px;
+	    color: #000000;
+	}
+	#registro p br { clear: left; }
+	.enviar { margin:3px 0 0 83px; }
+	 
+	/*--><!]]>*/
+	</style>
