@@ -130,6 +130,12 @@ function ensureAuthenticated(req, res, next) {
 
 });
 
+var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080 || 5000;
+var ip = process.env.IP || process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
+app.listen(port,ip);
+
+
+
 //Find entrenamientos
 app.get('/kittens/find/:name', function(req, res){
 // find all
